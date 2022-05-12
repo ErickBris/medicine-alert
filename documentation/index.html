@@ -1,0 +1,268 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Medicine Alert - Full Android application</title>
+	
+	<meta name="description" content="Medicine Alert is very helpful application to make the list of medicines with time alert. User could input the name of medicine, add description, choose alert's time intervals and moment of start.">
+	<meta name="author" content="Appliccon sp. z o.o.">
+	<meta name="copyright" content="Appliccon sp. z o.o.">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-02-24T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-medicine-alert">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#description" title="Description">Description</a></li>
+			<li><a href="#application_features" title="Application Features">Application Features</a></li>
+			<li><a href="#files_included" title="Files Included">Files Included</a></li>
+			<li><a href="#external_libraries_used" title="External Libraries Used">External Libraries Used</a></li>
+			<li><a href="#sources_credits" title="Sources & Credits">Sources & Credits</a></li>
+			<li><a href="#how_to_import_files_to_eclipse" title="How To Import Files to Eclipse">How To Import Files to Eclipse</a></li>
+			<li><a href="#online_support" title="Online Support">Online Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Appliccon sp. z o.o. 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Medicine Alert</h1>
+	<h2>Full Android application</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 10/28/2014</li>
+	<li>latest update: 02/24/2015</li>
+	<li>by: Appliccon sp. z o.o.</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#100;&#101;&#118;&#101;&#108;&#111;&#112;&#101;&#114;&#64;&#97;&#112;&#112;&#108;&#105;&#99;&#99;&#111;&#110;&#46;&#99;&#111;&#109;">&#100;&#101;&#118;&#101;&#108;&#111;&#112;&#101;&#114;&#64;&#97;&#112;&#112;&#108;&#105;&#99;&#99;&#111;&#110;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing our app. If you have any questions that are beyond the scope of this help file, please feel free to contact us via mail: &#100;&#101;&#118;&#101;&#108;&#111;&#112;&#101;&#114;&#64;&#97;&#112;&#112;&#108;&#105;&#99;&#99;&#111;&#110;&#46;&#99;&#111;&#109;. 
+
+Thanks so much!</p>
+	</section>
+	
+	<section id="description">
+	<div class="page-header"><h3>Description</h3><hr class="notop"></div>
+<p>
+	Medicine Alert is very helpful application to make the list of medicines with time alert. User could input the name of medicine, add description, choose alert&#39;s time intervals and moment of start. The App could be use by everyone but is especially prepared for mature people - big buttons and text fields make the App easier to use.</p>
+<p>
+	What users can do:</p>
+<div>
+	- Define as many medicines as they need.</div>
+<div>
+	- Make a timetable, which remind them about medicines, at the right moment.</div>
+<div>
+	- They can also add a description about each of these medicines.</div>
+</section>
+<section id="application_features">
+	<div class="page-header"><h3>Application Features</h3><hr class="notop"></div>
+<p>
+	Java code features:</p>
+<ul>
+	<li>
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Splash Screen Activity&nbsp;</span></li>
+	<li>
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Main Activity to display list of alerts</span></li>
+	<li>
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">​</span><span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Events adapter to manage alarms list</span></li>
+	<li>
+		Edit Event Activity to edit alerts</li>
+	<li>
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">Package of classes to manage data base in MySQL standard</span></li>
+	<li>
+		<span style="font-family: inherit; font-style: inherit; font-weight: inherit;">About Activity display informations about app and developer</span></li>
+	<li>
+		Classes to provide AdMod services and Google Analytics services</li>
+</ul>
+<p>
+	Graphical features:&nbsp;</p>
+<ul>
+	<li>
+		package of icons</li>
+	<li>
+		buttons icons</li>
+	<li>
+		splash graphic</li>
+	<li>
+		all graphics in sizes for all devices</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="files_included">
+	<div class="page-header"><h3>Files Included</h3><hr class="notop"></div>
+<ul>
+	<li>
+		.apk file</li>
+	<li>
+		.java files</li>
+	<li>
+		.xml files</li>
+	<li>
+		.png graphics in different sizes</li>
+</ul>
+<p>
+	&nbsp;</p>
+</section>
+<section id="external_libraries_used">
+	<div class="page-header"><h3>External Libraries Used</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Google Play Services Libraries -&nbsp;<a href="http://developer.android.com/google/play-services/setup.html">http://developer.android.com/google/play-services/setup.html</a></li>
+	<li>
+		Android Support Libraries -&nbsp;<a href="https://developer.android.com/tools/support-library/setup.html">https://developer.android.com/tools/support-library/setup.html</a></li>
+</ul>
+<p>
+	&nbsp;</p>
+</section>
+<section id="sources_credits">
+	<div class="page-header"><h3>Sources & Credits</h3><hr class="notop"></div>
+<h5>
+	<span style="font-size: 12px;">Graphics Used</span></h5>
+<p>
+	* Patterns used in Tourist Guide are created by our team.</p>
+<p>
+	* Objects and Shapes not listed above are created by our team</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="how_to_import_files_to_eclipse">
+	<div class="page-header"><h3>How To Import Files to Eclipse</h3><hr class="notop"></div>
+<h1 id="pageTitle" style="margin-top: 0px; margin-bottom: 1.15em; font-stretch: normal; font-size: 14pt; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif; color: rgb(0, 0, 0); padding-top: 0px;">
+	&nbsp;</h1>
+<p>
+	1. Unzip package into your workspace folder</p>
+<p>
+	2. Open Eclipse. (More information about Elipse download, installation and configuration you can find&nbsp;<a href="https://developer.android.com/sdk/index.html">HERE</a>). We recommend use Eclipse Kepler.</p>
+<p>
+	3. Import project to Eclipse:</p>
+<ul>
+	<li>
+		File-&gt;Import</li>
+</ul>
+<p>
+	<img alt="" src="assets/images/image_2.png" style="height: 300px; width: 199px;"></p>
+<ul>
+	<li>
+		Choose Android-&gt; &quot;Existing Android Code Into Workspace&quot;</li>
+</ul>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 286px; height: 300px;"></p>
+<ul>
+	<li>
+		Browse file folder in your workspace</li>
+</ul>
+<p>
+	<img alt="" src="assets/images/image_5.png" style="height: 300px; width: 292px;"></p>
+<ul>
+	<li>
+		Click &quot;Finish&quot; to import</li>
+</ul>
+<p>
+	4. Import Google Play Services library and Android Support Library same way</p>
+<p>
+	5. Click rihgt mouse button on project and select Properies-&gt;Android</p>
+<p>
+	<img alt="" src="assets/images/image_4.png"  ></p>
+<p>
+	6. Click &quot;Add...&quot; to add both libraries</p>
+<p>
+	<img alt="" src="assets/images/image_6.png" style="height: 300px; width: 330px;"></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="online_support">
+	<div class="page-header"><h3>Online Support</h3><hr class="notop"></div>
+<p>
+	It is all about Medicine Alert Documentation.</p>
+<p>
+	If you have any questions about customization of this template witch are not covered in the documentation feel free&nbsp;to ask a question via mail: &#100;&#101;&#118;&#101;&#108;&#111;&#112;&#101;&#114;&#64;&#97;&#112;&#112;&#108;&#105;&#99;&#99;&#111;&#110;&#46;&#99;&#111;&#109;</p>
+<p>
+	A Product of <a href="http://appliccon.com">Appliccon</a></p>
+<p>
+	<strong>Don&rsquo;t forget to rate&nbsp;the template. Thanks so much!</strong></p>
+</section>
+
+	</div>
+</body>
+</html>
